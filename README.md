@@ -16,4 +16,4 @@ Nous cherchons comment modéliser notre sujet. Pour l'instant nous partons sur u
 Nous avons réussi à obtenir une base de notre code (àcompléter)
 
 # Jour 5
-Nous avons continuer à paufiner notre code. Nous avons commencé par déterminer les attributs.
+Nous avons continuer à paufiner notre code. Nous avons commencé par déterminer les attributs pour chaque objet

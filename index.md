@@ -1,3 +1,4 @@
+
 # La criminalité
 
 Notre objectif est de modéliser une population commettant des crimes afin de de prévenir celle-ci. Le terme "crime" est très vaste. En effet, il existe différentes types de crime : crime contre l'humanité, crime contre la justice, crime contre l'État etc. Par choix arbitraire, nous avons choisi de nous concentrer sur le crime contre le bien personnel comme par exemple le vol qualifié. Pour cela, nous allons d'abord réaliser un modèle où une population commettant des vols sans aucun dispositif de sécurité (policier, caméra, agent de sécurité...) puis un autre modèle avec la présence de dispositif de sécurité. Dans un second temps, nous allons réaliser les mêmes types de modèles mais en considérant les voisins. C'est-à-dire ceux-ci peuvent être influençable. En effet dans notre première partie les individus ne sont pas influencé par leur voisin ce qui n'est pas réel. 
@@ -37,6 +38,8 @@ https://fr.wikipedia.org/wiki/Crime#Grandes_catégories_de_crimes
 
 https://www.insee.fr/fr/metadonnees/definition/c2048
 
-**Carte mentale de vos mots-clés, en utilisant** <a href="https://framindmap.org/mindmaps/index.html">Framindmap </a> 
+**Carte mentale de nosmots-clés :
+
+![Unknown](https://user-images.githubusercontent.com/80456390/116924807-a4634200-ac58-11eb-8724-bf23f2547d3c.png)
 
 Liste de l'ensemble des ressources bibliographiques utilisées pour vos travaux. **<= Indiquez le canal utilisé pour les trouver (Google Scholar, sources wikipedia, ressources en ligne SU, ...)**

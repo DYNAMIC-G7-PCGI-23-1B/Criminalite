@@ -1,5 +1,8 @@
 # La criminalité
 
+Notre objectif est de modéliser une population commettant des crimes afin de de prévenir celle-ci. Le terme "crime" est très vaste. En effet, il existe différentes types de crime : crime contre l'humanité, crime contre la justice, crime contre l'État etc. Par choix arbitraire, nous avons choisi de nous concentrer sur le crime contre le bien personnel comme par exemple le vol qualifié. Pour cela, nous allons d'abord réaliser un modèle où une population commettant des vols sans aucun dispositif de sécurité (policier, caméra, agent de sécurité...) puis un autre modèle avec la présence de dispositif de sécurité. Dans un second temps, nous allons réaliser les mêmes types de modèles mais en considérant les voisins. C'est-à-dire ceux-ci peuvent être influençable. En effet dans notre première partie les individus ne sont pas influencé par leur voisin ce qui n'est pas réel. 
+
+
 Résumé de quelques lignes présentant l'objectif de votre projet, la méthode que vous avez suivie pour le réaliser et les résultats marquants que vous avez obtenus.
 
 ## English version
@@ -15,15 +18,13 @@ Un titre et un résumé en anglais qui reprennent le titre et le résumé en fra
 
 ## Description synthétique du projet
 
-**Problématique :** 
+**Problématique : Comment peut-on réguler le taux de vol dans une population ?** 
 
-**Hypothèse principale :**
+**Hypothèse principale :Les dispositifs de sécurités peuvent être un régulateur du taux de vol.**
+ 
 
-**Hypothèses secondaires :** 
+**Objectifs : Prévenir la criminalité**
 
-**Objectifs :**
-
-**Critère(s) d'évaluation :**
 
 ## Présentation structurée des résultats
 
@@ -32,6 +33,9 @@ Présentation du choix de modélisation, des outils, du code et des résultats (
 ## Lien vers page de blog : <a href="blog.html"> C'est ici ! </a>
 
 ## Bibliographie :
+https://fr.wikipedia.org/wiki/Crime#Grandes_catégories_de_crimes
+
+https://www.insee.fr/fr/metadonnees/definition/c2048
 
 **Carte mentale de vos mots-clés, en utilisant** <a href="https://framindmap.org/mindmaps/index.html">Framindmap </a> 
 

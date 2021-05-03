@@ -39,7 +39,7 @@ https://fr.wikipedia.org/wiki/Crime#Grandes_catégories_de_crimes
 
 https://www.insee.fr/fr/metadonnees/definition/c2048
 
-**Carte mentale de nos mots-clés :
+## Carte mentale de nos mots-clés :
 
 ![Unknown](https://user-images.githubusercontent.com/80456390/116925134-163b8b80-ac59-11eb-9e3f-1ef410f67a19.png)
 

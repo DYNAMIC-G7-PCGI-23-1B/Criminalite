@@ -9,7 +9,7 @@ Résumé de quelques lignes présentant l'objectif de votre projet, la méthode 
 
 ## English version
 
-Un titre et un résumé en anglais qui reprennent le titre et le résumé en français, mais en anglais pour attirer une audience internationale sur vos travaux !
+Our goal is to model a population committing crimes in order to prevent it. The term "crime" is very broad. Indeed, there are different types of crime: crime against humanity, crime against justice, crime against the state, etc. By arbitrary choice, we have chosen to focus on crime against personal property such as robbery. For this, we will first create a model where a population committing thefts without any security devices (policeman, camera, security guard ...) and then another model with the presence of security device. In a second time, we will make the same types of models but considering the neighbors. That is, these can be influenced. Indeed in our first part individuals are not influenced by their neighbor which is not real.
 
 ## Présentation de l'équipe
 

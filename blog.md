@@ -12,9 +12,12 @@ Notre problématique : Quels sont les paramètres rentrant en jeu lorsqu'un indi
 ## Semaine 3
 Nous cherchons comment modéliser notre sujet. Pour l'instant nous partons sur un modèle de schelling avec des uns et des zéros. Rien trouver de concret pour l'instant. Découverte de la loi de poisson qui peut être intéressant à exploiter. Nous avons voulu englober tous les types de criminalité mais cela est trop complexe. Dons nous allons probablement choisir le vol en tout genre. Ce qui simplifiera notre modèle. Notre modèle se concentrera principalement sur des lois de probabilité.
 ## Semaine 4
-Nous avons réussi à obtenir une base de notre code (àcompléter)
+Nous avons réussi à obtenir une base de notre code. Cependant, nous avons constaté que notre sujet est assez abstrait donc on ne peut s'appuyer sur aucune données. 
 
 ## Semaine 5
-Nous avons continuer à paufiner notre code. Nous avons commencé par déterminer les attributs pour chaque objet
+Nous avons continuer à paufiner notre code. Nous avons commencé par déterminer les attributs pour chaque objet. Nous n'avons pas beaucoup avancé comme voulu car nous avons remarqué que notre sujet n'est pas si facile qu'on y pensait. De ce fait, nous avons essayer de facilité davantage notre sujet.
+
+## Semaine 6
+Nous nous sommes intéresser à la fonction voisinage et essayer de voir qu'est ce qu'on peut faire avec. L'automate cellulaire a été exploité plus précisement le voisinage de Moore
 
 <a href="index.html"> Retour à la page principale </a>

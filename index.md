@@ -11,8 +11,8 @@ Résumé de quelques lignes présentant l'objectif de votre projet, la méthode 
 
 ## English version
 
-Our goal is to model a population committing crimes in order to prevent it. The term "crime" is very broad. Indeed, this notion is not perceived in the same way from one culture to another. There are different types of crime: crime against humanity, crime against justice, crime against the state, etc. By arbitrary choice, we have chosen to focus on crime against personal property such as robbery. However, can the rate of theft in a population be regulated. At first, we created a model where individuals from a neighbourhood commit robberies without any security devices (policeman, camera, security guard...).Each individual is assigned to the probability of committing a crime. In order to increase the difficulty of our model, we then considered the neighbors who if one of them commits a crime, it will influence the individual in question to commit a crime or not. In a second phase, we will make the same types of models but in the presence of safety devices.
-camera, security guard...).  
+Our goal is to model a population committing crimes in order to prevent it. The term "crime" is very broad. Indeed, this notion is not perceived in the same way from one culture to another. There are different types of crime: crime against humanity, crime against justice, crime against the state, etc. By arbitrary choice, we have chosen to focus on crime against personal property such as robbery. However, may the rate of theft in a population be regulated? At first, we created a model where individuals from a neighbourhood commit robberies without any security devices (policemen, cameras, security guards...).Each individual is assigned to the probability of committing a crime. In order to increase the difficulty of our model, then, we considered the case where the acts of one person may influence or not another person to commit a crime too.
+ In a second part, we will make the same types of models but in the presence of safety devices as police,camera, security guard etc.  
 ## Présentation de l'équipe
 
 |(´・ω・｀)| ( ͡° ͜ʖ ͡°) | ಠ_ಠ | ᕕ( ᐛ )ᕗ |

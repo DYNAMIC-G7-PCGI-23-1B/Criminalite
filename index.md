@@ -36,9 +36,11 @@ Our goal is to model a population committing crimes in order to prevent it. The 
 
 Nous avons décidé de nous inspiré du modèle de Schelling. Nous avons pour cela créer une grille 2D numpy où chaque individu possède une probabilité générée au hazard par  ```` np.random.random ```` . Celle-ci correspond à la chance d'un individu de commettre un vol.
  Nos paramètres : 
- ```` seuil_crime_sans_controle : seuil à ne pas dépasser sinon individu considéré comme criminel potentiel
+ ```` 
+      seuil_crime_sans_controle : seuil à ne pas dépasser sinon individu considéré comme criminel potentiel
       NdL : Nombre de lignes dans la grille
-      NdC : Nombre de colonnes dans la grille ````
+      NdC : Nombre de colonnes dans la grille 
+ ````
 
 
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).

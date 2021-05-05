@@ -43,8 +43,11 @@ Nous avons décidé de nous inspiré du modèle de Schelling. Nous avons pour ce
       NdC* NdL correspond à la taille de la grille soit le nombre d'habitants dans ce quartier
  ````
  Nous avons repéré des sous paramètres concernant le ````seuil_crime_sans_controle```` :
+ 
       - le niveau de vie du quartier
+
       - crise (économique, sanitaire, politique...)
+ 
 Considérons plusieurs types de quartier composé de 100 habitants :
 |.    | Quartier aisé | Quartier modeste | Quartier défavorisé |
 |-----|--|--|--|

@@ -32,7 +32,7 @@ Our goal is to model a population committing crimes in order to prevent it. The 
 
 ## Présentation structurée des résultats
 
-# Taux de vols en absence de sécurité
+### Taux de vols en absence de sécurité
 
 Nous avons décidé de nous inspiré du modèle de Schelling. Nous avons pour cela créer une grille 2D numpy où chaque individu possède une probabilité générée au hazard par  ```` np.random.random ```` . Celle-ci correspond à la chance d'un individu de commettre un vol.
  Nos paramètres généraux : 
@@ -107,7 +107,7 @@ Remarque : Le nombre de criminels a été généré grâce à ce compteur :
 ````
 compteur_1 = grille_bool_crime.sum()
 ```` 
-# Calcul taux de vols pour 100 habitants :
+### Calcul taux de vols pour 100 habitants :
    - Formule :
 ````
 taux_de_criminalite_1 = (compteur_1/(NdL*NdC))*100
@@ -119,7 +119,7 @@ taux_de_criminalite_1 = (compteur_1/(NdL*NdC))*100
 | ````taux_de_criminalité_1 (en %)````| ````31```` | ````42````  | ````60````  |
 
 
-# Observation :
+### Observation :
 Pour une population de 100 habitants, on observe qu'il est plus probable de commettre un vol dans un quartier défavorisé que dans un quartier aisé.Il peut y avoir plusieurs raisons. Par exemple, dans les quartiers défavorisés la population est plus jeune qu'autres parts. Cependant, même s'il existe un grand écart, est ce que cela signifie que les vols commis dans les quartiers aisés sont moins dangereux que ceux commis dans les quartiers défavorisé ? Nous faisons le choix de ne pas l'aborder. 
 
 

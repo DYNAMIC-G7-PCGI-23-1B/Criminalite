@@ -2,15 +2,17 @@
 
 # La criminalité
 
-Notre objectif est de modéliser une population commettant des crimes afin de de prévenir celle-ci. Le terme "crime" est très vaste. En effet, il existe différentes types de crime : crime contre l'humanité, crime contre la justice, crime contre l'État etc. Par choix arbitraire, nous avons choisi de nous concentrer sur le crime contre le bien personnel comme par exemple le vol qualifié. Pour cela, nous allons d'abord réaliser un modèle où une population commettant des vols sans aucun dispositif de sécurité (policier, caméra, agent de sécurité...) puis un autre modèle avec la présence de dispositif de sécurité. Dans un second temps, nous allons réaliser les mêmes types de modèles mais en considérant les voisins. C'est-à-dire ceux-ci peuvent être influençable. En effet dans notre première partie les individus ne sont pas influencé par leur voisin ce qui n'est pas réel. 
+Notre objectif est de modéliser une population commettant des crimes afin de prévenir celle-ci. Le terme "crime" est très vaste. En effet, cette notion n'est pas perçue de la même manière d'une culture à une autre. Il existe différents types de crime : crime contre l'humanité, crime contre la justice, crime contre l'État etc. Par choix arbitraire, nous avons choisi de nous concentrer sur le crime contre le bien personnel comme par exemple le vol qualifié. Cependant,peut-on réguler le taux de vol dans une population. Dans un premier temps, nous avons réalisé un modèle où des individus d'un quartier commettent des vols sans aucun dispositif de sécurité (policier, caméra, agent de sécurité...). Chaque individu est affecté à la probabilité de commettre un crime. Afin d'augmenter la difficulté de notre modèle, nous avons ensuite considéré les voisins qui si l'un d' entre eux commette un crime, cela influencera l'individu en question à commettre un crime ou pas.
+Dans un second temps, nous allons réaliser les mêmes types de modèles mais en présence de dispositifs de sécurité.
+
 
 
 Résumé de quelques lignes présentant l'objectif de votre projet, la méthode que vous avez suivie pour le réaliser et les résultats marquants que vous avez obtenus.
 
 ## English version
 
-Our goal is to model a population committing crimes in order to prevent it. The term "crime" is very broad. Indeed, there are different types of crime: crime against humanity, crime against justice, crime against the state, etc. By arbitrary choice, we have chosen to focus on crime against personal property such as robbery. For this, we will first create a model where a population committing thefts without any security devices (policeman, camera, security guard ...) and then another model with the presence of security device. In a second time, we will make the same types of models but considering the neighbors. That is, these can be influenced. Indeed in our first part individuals are not influenced by their neighbor which is not real.
-
+Our goal is to model a population committing crimes in order to prevent it. The term "crime" is very broad. Indeed, this notion is not perceived in the same way from one culture to another. There are different types of crime: crime against humanity, crime against justice, crime against the state, etc. By arbitrary choice, we have chosen to focus on crime against personal property such as robbery. However, can the rate of theft in a population be regulated. At first, we created a model where individuals from a neighbourhood commit robberies without any security devices (policeman, camera, security guard...).Each individual is assigned to the probability of committing a crime. In order to increase the difficulty of our model, we then considered the neighbors who if one of them commits a crime, it will influence the individual in question to commit a crime or not. In a second phase, we will make the same types of models but in the presence of safety devices.
+camera, security guard...).  
 ## Présentation de l'équipe
 
 |(´・ω・｀)| ( ͡° ͜ʖ ͡°) | ಠ_ಠ | ᕕ( ᐛ )ᕗ |

@@ -41,6 +41,12 @@ https://fr.wikipedia.org/wiki/Crime#Grandes_catégories_de_crimes
 
 https://www.insee.fr/fr/metadonnees/definition/c2048
 
+https://www.cairn.info/revue-reseaux-2017-6-page-95.htm
+
+https://www.scienceshumaines.com/pourquoi-la-criminalite-chute_fr_31470.html
+
+https://www.cairn.info/revue-reseaux-2018-5-page-221.htm
+
 ## Carte mentale de nos mots-clés :
 
 ![Unknown](https://user-images.githubusercontent.com/80456390/116925134-163b8b80-ac59-11eb-9e3f-1ef410f67a19.png)

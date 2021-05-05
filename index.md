@@ -32,7 +32,9 @@ Our goal is to model a population committing crimes in order to prevent it. The 
 
 ## Présentation structurée des résultats
 
-Nous avons décidé de modéliser notre projet à l'aide d'une grille 2D numpy où chaque individu possède des coordonnées [x,y].
+# Taux de vols en absence de sécurité
+
+Nous avons décidé de nous inspiré du modèle de Schelling. Nous avons pour cela créer une grille 2D numpy où chaque individu possède une probabilité générée au hazard par ''''np.random.random''''. Celle-ci correspond 
 
 
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).

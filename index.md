@@ -24,7 +24,7 @@ camera, security guard...).
 
 **Problématique : Comment peut-on réguler le taux de vol dans une population ?** 
 
-**Hypothèse principale :Les dispositifs de sécurités peuvent être un régulateur du taux de vol.**
+**Hypothèse principale : Les dispositifs de sécurités peuvent être un régulateur du taux de vol.**
  
 
 **Objectifs : Prévenir la criminalité**

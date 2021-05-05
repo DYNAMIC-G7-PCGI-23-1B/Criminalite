@@ -34,7 +34,7 @@ Our goal is to model a population committing crimes in order to prevent it. The 
 
 # Taux de vols en absence de sécurité
 
-Nous avons décidé de nous inspiré du modèle de Schelling. Nous avons pour cela créer une grille 2D numpy où chaque individu possède une probabilité générée au hazard par ''''np.random.random''''. Celle-ci correspond 
+Nous avons décidé de nous inspiré du modèle de Schelling. Nous avons pour cela créer une grille 2D numpy où chaque individu possède une probabilité générée au hazard par  '''' np.random.random '''' . Celle-ci correspond 
 
 
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).

@@ -4,7 +4,7 @@
 
 Notre objectif est de modéliser une population commettant des crimes afin de prévenir celle-ci. Le terme "crime" est très vaste. En effet, cette notion n'est pas perçue de la même manière d'une culture à une autre. Il existe différents types de crime : crime contre l'humanité, crime contre la justice, crime contre l'État etc. Par choix arbitraire, nous avons choisi de nous concentrer sur le crime contre le bien personnel comme par exemple le vol qualifié. Cependant, est-il possible de réguler le taux de vol dans une population ? Dans un premier temps, nous avons réalisé un modèle où des individus d'un quartier commettent des vols sans aucun dispositif de sécurité (policier, caméra, agent de sécurité...). Chaque individu est affecté à une probabilité de commettre un crime. Afin d'augmenter la difficulté de notre modèle, nous avons ensuite considéré l'influence des voisins commettant un crime sur un autre individu au tour suivant.
 Dans un second temps, nous allons réaliser les mêmes types de modèles mais en présence de dispositifs de sécurité.
-
+Dans ces parties nous verrons que le taux de vols diminuera effectivement lors de l'installation de dispositiifs de sécurité.
 
 
 Résumé de quelques lignes présentant l'objectif de votre projet, la méthode que vous avez suivie pour le réaliser et les résultats marquants que vous avez obtenus.
@@ -31,6 +31,9 @@ Our goal is to model a population committing crimes in order to prevent it. The 
 
 
 ## Présentation structurée des résultats
+
+Nous avons décidé de modéliser notre projet à l'aide d'une grille 2D numpy où chaque individu possède des coordonnées [x,y].
+
 
 Présentation du choix de modélisation, des outils, du code et des résultats (tableaux, courbes, animations...) (**avec une analyse critique**).
 

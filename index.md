@@ -51,4 +51,3 @@ https://www.cairn.info/revue-reseaux-2018-5-page-221.htm
 
 ![Unknown](https://user-images.githubusercontent.com/80456390/116925134-163b8b80-ac59-11eb-9e3f-1ef410f67a19.png)
 
-Liste de l'ensemble des ressources bibliographiques utilisées pour vos travaux. **<= Indiquez le canal utilisé pour les trouver (Google Scholar, sources wikipedia, ressources en ligne SU, ...)**

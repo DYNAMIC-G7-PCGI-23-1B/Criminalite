@@ -107,7 +107,7 @@ Remarque : Le nombre de criminels a été généré grâce à ce compteur :
 ````
 compteur_1 = grille_bool_crime.sum()
 ```` 
-### Calcul taux de vols pour 100 habitants :
+### Calcul taux de vol pour 100 habitants :
    - Formule :
 ````
 taux_de_criminalite_1 = (compteur_1/(NdL*NdC))*100
@@ -120,7 +120,74 @@ taux_de_criminalite_1 = (compteur_1/(NdL*NdC))*100
 
 
 ### Observation :
-Pour une population de 100 habitants, on observe qu'il est plus probable de commettre un vol dans un quartier défavorisé que dans un quartier aisé.Il peut y avoir plusieurs raisons. Par exemple, dans les quartiers défavorisés la population est plus jeune qu'autres parts. Cependant, même s'il existe un grand écart, est ce que cela signifie que les vols commis dans les quartiers aisés sont moins dangereux que ceux commis dans les quartiers défavorisé ? Nous faisons le choix de ne pas l'aborder. 
+Pour une population de 100 habitants, on observe qu'il est plus probable de commettre un vol dans un quartier défavorisé que dans un quartier aisé.Il peut y avoir plusieurs raisons : population plus jeune dans les quartiers défavorisés, faible pouvoir d'achat,taux de chômage plus important... Cependant, même s'il existe un grand écart entre ces types de quartier, est ce que cela signifie que les vols commis dans les quartiers aisés sont moins dangereux que ceux commis dans les quartiers défavorisé ? Ou bien est-ce que les revenues d'une personne sont-elles vraiment un facteur afin de justifier un crime commis ? Nous faisons le choix de ne pas l'aborder. 
+
+Considérons maintenant une population des différents quartiers en situation de crise sanitaire par exemple :
+
+|.    | Quartier aisé | Quartier modeste | Quartier défavorisé |
+|-----|--|--|--|
+| ````seuil_crime_sans_controle````| ````0,6```` | ````0,4````  | ````0,3````  |
+
+Les grilles que l'on observe avec ````0 : Non criminels ; 1 : Criminels ```` :
+   - Quartier aisé :
+
+````[[[1 0 0 0 0 1 0 0 0 0]
+  [0 0 1 1 1 0 1 1 0 0]
+  [0 0 1 0 0 0 1 0 1 0]
+  [0 0 0 1 0 0 1 1 0 1]
+  [0 1 0 0 0 1 0 0 0 0]
+  [0 1 1 0 1 1 0 0 1 1]
+  [1 0 1 1 0 0 1 0 1 0]
+  [0 1 1 1 1 1 0 1 0 0]
+  [0 0 1 1 0 0 0 0 1 1]
+  [0 0 1 0 1 1 0 0 0 1]]]
+  
+  Le nombre de criminels en absence de contrôle:  41
+  ````
+
+
+   - Quartier modeste :
+ ````  [[[[1 1 0 1 0 1 1 1 0 1]
+  [0 1 1 0 0 0 0 1 0 1]
+  [0 1 1 0 1 1 1 0 0 0]
+  [1 1 0 0 0 0 1 1 0 1]
+  [0 0 1 0 1 0 1 0 1 0]
+  [1 0 0 1 1 1 1 0 0 0]
+  [0 1 1 0 1 1 0 1 0 1]
+  [1 0 0 1 0 1 1 1 1 1]
+  [0 1 1 0 1 0 1 0 1 1]
+  [1 0 1 1 1 1 1 0 1 1]]]
+  
+  Le nombre de criminels en absence de contrôle:  57
+  ````
+
+
+  - Quartier défavorisé : 
+   
+ 
+````[[[1 1 0 0 0 1 1 0 0 1]
+  [1 1 1 1 1 1 1 1 1 1]
+  [1 1 1 1 1 1 1 1 0 1]
+  [0 1 1 1 1 1 1 1 0 1]
+  [0 1 1 1 1 1 0 0 0 1]
+  [0 1 1 0 1 1 1 1 1 1]
+  [1 1 1 0 0 1 1 0 0 0]
+  [0 1 1 1 0 1 1 0 1 0]
+  [1 0 0 1 1 1 0 1 1 1]
+  [1 1 1 1 1 0 1 0 1 1]]]
+  
+  Le nombre de criminels en absence de contrôle:  72
+````
+### Calcul taux de vol en situation de crise
+- Résultats :
+ 
+|.    | Quartier aisé | Quartier modeste | Quartier défavorisé |
+|-----|--|--|--|
+| ````taux_de_criminalité_1 (en %)````| ````41```` | ````57````  | ````72````  |
+
+### Observation
+
+On constate la même chose. En effet, le seul de criminalité est toujours élevé dans les quartiers aisés.
 
 
 

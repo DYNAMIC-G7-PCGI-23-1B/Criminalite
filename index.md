@@ -7,12 +7,11 @@ Dans un second temps, nous allons réaliser les mêmes types de modèles mais en
 Dans ces parties nous verrons que le taux de vols diminuera effectivement lors de l'installation de dispositiifs de sécurité.
 
 
-Résumé de quelques lignes présentant l'objectif de votre projet, la méthode que vous avez suivie pour le réaliser et les résultats marquants que vous avez obtenus.
-
 ## English version
 
 Our goal is to model a population committing crimes in order to prevent it. The term "crime" is very broad. Indeed, this notion is not perceived in the same way from one culture to another. There are different types of crime: crime against humanity, crime against justice, crime against the state, etc. By arbitrary choice, we have chosen to focus on crime against personal property such as robbery. However, may the rate of theft in a population be regulated? At first, we created a model where individuals from a neighbourhood commit robberies without any security devices (policemen, cameras, security guards...).Each individual is assigned to the probability of committing a crime. In order to increase the difficulty of our model, then, we considered the case where the acts of one person may influence or not another person to commit a crime too.
  In a second part, we will make the same types of models but in the presence of safety devices as police,camera, security guard etc.  
+ In these parts we will see that the theft rate will actually decrease when installing security devices.
 ## Présentation de l'équipe
 
 |(´・ω・｀)| ( ͡° ͜ʖ ͡°) | ಠ_ಠ | ᕕ( ᐛ )ᕗ |
@@ -268,7 +267,7 @@ taux_de_criminalite_2 = (compteur_2/(NdL*NdC))*100
 
 ### Observation :
 
-On observe que lorsqu'un endroit est sécurisé contre le vol, on observe une chute du taux de criminalité dans tous les quartiers. Cela paraît assez cohérent. En effet, les dispositifs de sécurités est un moyen dissuasion pour lutter contre le vol car cela affecte l'économique des entreprises,l'économie du pays, la confiance des habitants du quartier...
+On observe que lorsqu'un endroit est sécurisé contre le vol, on observe une chute du taux de criminalité dans tous les quartiers. Cela paraît assez cohérent. En effet, les dispositifs de sécurités est un moyen de dissuasion afin de lutter contre le vol car sinon cela affecte l'économique des entreprises,l'économie du pays, la confiance des habitants du quartier...
 
 
 
